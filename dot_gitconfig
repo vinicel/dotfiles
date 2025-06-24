@@ -1,0 +1,16 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	email = guillaudev.dev@gmail.com
+	username = Vinicel
+[credential]
+	helper = osxkeychain
+[alias]
+	st = status
+	flog = log --online --graph --name-status
+	c = commit -m
+	co = checkout
+	p = pull
