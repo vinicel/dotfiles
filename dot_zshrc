@@ -55,3 +55,5 @@ export GVM_DIR="$HOME/.gvm"
 #eval "$(starship init zsh)"
 source /opt/homebrew/opt/spaceship/spaceship.zsh
 eval "$(/opt/homebrew/bin/mise activate zsh)"
+
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"
