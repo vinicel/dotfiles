@@ -1,0 +1,7 @@
+[tools]
+python = "3.13.7"
+node = "24.2.0"
+
+[settings]
+experimental = true
+legacy_version_file = true
