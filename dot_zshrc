@@ -24,7 +24,6 @@ source $ZSH/oh-my-zsh.sh
 # ALIAS edit file or go to the folder
 alias zshconfig="nano $HOME/.zshrc"
 alias maecia="cd $HOME/development/maecia"
-alias just="cd $HOME/development/just"
 alias home="cd $HOME"
 alias dev="cd $HOME/development/"
 
